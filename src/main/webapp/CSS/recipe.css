@@ -1,0 +1,191 @@
+/* 
+    Created on : 20 Jun 2023, 4:06:39 pm
+    Author     : irfan
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chokokutai&family=Dancing+Script:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+.head-title {
+    background-color: rgb(12, 124, 142);
+    height: 90px;
+    padding-bottom: 30px;
+}
+
+
+
+/************************NAVIGATION BAR*************/
+.function {
+    max-width:0%;
+    height: 5px;
+    margin-left: 40%;
+    margin-top: -4%;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+
+    /* border-style: solid;*/
+
+}
+ul li{
+    width: 100px;
+    margin-left: 30px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1%;
+
+}
+ul li a{
+    list-style: none;
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #2E150C;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 17px;
+    color: white;
+}
+
+ul li ul.dropdown li{
+    margin-left:-10px;
+    margin-right: 20px;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgb(111, 123, 123);
+}
+ul li ul.dropdown{
+    margin-left: 10px;
+    list-style: none;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    text-decoration: none;
+
+
+
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+/**********title nutrismartguide**********/
+.title {
+    font-size: 35px;
+    margin-left: 5%;
+    margin-top: -5%;
+    font-family: 'Chokokutai', cursive;
+    color: azure;
+
+}
+/***************MINI SUBTITLE***********/
+.sub-title {
+    text-align: center;
+    margin-top: 3%;
+    border-style: solid;
+}
+
+/**********insert picture recipe************/
+.order {
+    margin-top: 100px;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: -10px;
+    row-gap: 10px;
+}
+
+.card {
+    position: relative;
+    width: 280px;
+    height: 350px;
+    /*background: rgb(250, 250, 250); */
+
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.38);
+    transition: 0.5s;
+    margin-left: 100px;
+}
+
+.imgBx {
+    position: absolute;
+    left: 41%;
+    top: 5%;
+    transform: translateX(-40%);
+    width: 250px;
+    height: 250px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+
+.imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title_pf {
+    margin-top: 280px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(8, 8, 8);
+}
+/*****button found more detail recipe*****/
+.btn-more {
+    margin-left: 35%;
+    margin-top: 5%;
+    font-size: 16px;
+    font-weight: 400%;
+    color: #fff;
+    border: none;
+    padding: 3px 15px;
+    background-color: #161616;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+/****************icon fb,ig,tw********************/
+.social-icons {
+    width: 20%;
+    height: 20%;
+    list-style: none;
+    padding: 0px;
+    margin-top: -3%;
+    display: flex;
+    color: azure;
+
+}
+
+.social-icons li {
+    margin-right: 0px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: inherit;
+}
+

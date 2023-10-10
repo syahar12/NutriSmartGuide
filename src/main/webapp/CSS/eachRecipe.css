@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.pexels.com/photos/4862896/pexels-photo-4862896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+        background-size: cover;
+    opacity: 20;
+}
+
+.photo-image {
+    height: 320px;
+    margin: 0 35%;
+    margin-top: 10px;
+    margin-top: 10%;
+    box-shadow: 21px 14px 20px 8px rgba(18, 18, 18, 0.75);
+    -webkit-box-shadow: 21px 14px 20px 8px rgba(18, 18, 18, 0.75);
+    -moz-box-shadow: 21px 14px 20px 8px rgba(18, 18, 18, 0.75);
+}
+
+
+.recipe-name {
+    font-family: 'Roboto Slab', serif;
+    border-bottom: #209978  solid 3px;
+    
+    font-size: 45px;
+    color: rgb(10, 30, 96);
+    margin-bottom: 10px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.recipe-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+    word-wrap: break-word;
+}
+
+.namepage {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 48px;
+    color:rgb(17, 49, 71);
+    margin: 50px 0;
+    padding: 20px 20px;
+    border: 3px solid  rgb(110, 39, 19);;
+}
+
+.ingredient-table {
+    margin: 0px 15%;
+    padding: 20px;
+    background-color: #F5F6EB;
+    border: 2px solid #C4C8C9;
+    font-family: 'Roboto Slab', serif;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #C4C8C9;
+}
+
+.instruction-list {
+    padding: 20px;
+    margin: 50px 15%;
+    text-align: justify;
+    background-color: #F5F6EB;
+    border: 2px solid #C4C8C9;
+    font-family: 'Roboto Slab', serif;
+    color: #333;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+.recipe-info{
+   
+    width: 50%;
+    margin: 3% 20%;
+}
+.button {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid #17795E;
+    background-color: #209978;
+    overflow: hidden;
+    margin: 2% 45%;
+}
+
+.button,
+.button__icon,
+.button__text {
+    transition: all 0.3s;
+}
+
+.button .button__text {
+    transform: translateX(22px);
+    color: #fff;
+    font-weight: 600;
+}
+
+.button .button__icon {
+    position: absolute;
+    transform: translateX(109px);
+    height: 100%;
+    width: 39px;
+    background-color: #17795E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button .svg {
+    width: 20px;
+    fill: #fff;
+}
+
+.button:hover {
+    background: #17795E;
+}
+
+.button:hover .button__text {
+    color: transparent;
+}
+
+.button:hover .button__icon {
+    width: 148px;
+    transform: translateX(0);
+}
+
+.button:active .button__icon {
+    background-color: #146c54;
+}
+
+.button:active {
+    border: 1px solid #146c54;
+}
+

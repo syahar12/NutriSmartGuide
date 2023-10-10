@@ -1,0 +1,120 @@
+   body {
+            background-color: #1D3557;
+            color: #ffffff;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+    .header {
+        background-image: url("https://images.pexels.com/photos/3979415/pexels-photo-3979415.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        text-align: center;
+        margin-top: -80px;
+    }
+
+    .header h1 {
+        color: #993030;
+        font-size: 65px;
+        padding-top: 50px;
+        font-family: 'Merriweather', serif;
+        font-family: 'Noto Serif Armenian', serif;
+    }
+
+    .form-container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 40px;
+        background-color: #FAF0E4;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        color: #1D3557;
+    }
+
+    .form-container label {
+        font-weight: bold;
+    }
+
+    .form-container input[type="text"],
+    .form-container textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #1f1e1e;
+        color: #1D3557;
+        transition: border-color 0.3s ease;
+    }
+
+    .form-container input[type="text"]:focus,
+    .form-container textarea:focus {
+        outline: none;
+        border-color: #e63946;
+    }
+
+    .button-container {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: #e63946;
+        color: #ffffff;
+        font-size: 16px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+        background-color: #c62834;
+    }
+
+    .button:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    /* Additional CSS for the new edit form */
+
+    .box-orange {
+        background-color: #FF9F1C;
+        padding: 30px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+
+    .box-orange h2 {
+        color: #1D3557;
+        font-size: 24px;
+        margin-top: 0;
+    }
+
+    .recipe-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .recipe-details {
+        flex-basis: 60%;
+    }
+
+    .recipe-image {
+        flex-basis: 35%;
+        text-align: center;
+    }
+
+    .recipe-image img {
+        max-width: 100%;
+        max-height: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .instruction-container {
+        margin-top: 20px;
+    }

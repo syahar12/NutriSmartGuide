@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Noto+Serif+Armenian:wght@600&display=swap');
+
+body {
+    background-color: #1D3557;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url("https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    text-align: center;
+    margin-top: -80px;
+}
+
+.header h1 {
+    color: #993030;
+    font-size: 65px;
+    padding-top: 50px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Noto Serif Armenian', serif;
+}
+
+/* --------------------------------------------------------- */
+.header-edit {
+    background-image: url(3.webp);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    text-align: center;
+    margin-top: -80px;
+}
+
+.header-edit h1 {
+    color: #993030;
+    font-size: 65px;
+    padding-top: 50px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Noto Serif Armenian', serif;
+}
+
+/* --------------------------------------------------------- */
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    height: 50vh;
+    font-size: 20px;
+    width: 70%;
+    padding: 50px 30px;
+    margin: 50px 200px;
+    border-radius: 5px;
+    border: solid rgb(227, 168, 33) 10px;
+    box-shadow: 50px 41px 100px 4px rgba(8, 7, 7, 0.75);
+    -webkit-box-shadow: 50px 41px 100px 4px rgba(8, 7, 7, 0.75);
+    -moz-box-shadow: 50px 41px 100px 4px rgba(8, 7, 7, 0.75);
+}
+table{   
+    height: 500px;
+    width: 200px;
+    margin-left: -250px;
+}
+
+.requireForm{
+    font-size: 30px;
+}
+
+.form-cont{
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.button-container {
+    margin-top: 5px;
+    margin-left: -40px;
+}
+.button {
+    margin-left: 120px;
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #e0d8d8f3;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+}
+input[type="text"] {
+    height: 50px;
+    width:fit-content;
+}
+.unit{
+    font-size: 25px;
+    color: white;
+    text-decoration: solid 3px;
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Chokokutai&family=Dancing+Script:wght@700&family=Diphylleia&family=Orbitron:wght@700&family=Roboto:wght@100&display=swap');
+
+body{
+    background-color: #344a72;
+    font-family: 'Roboto', sans-serif;
+}
+.signup-box {
+    margin-top: 4%;
+    margin-left: 38%;
+    width:360px;
+    height:660px;
+    
+    background-color: white;
+    border-radius: 3px;
+}
+.login-box {
+    width: 360px;
+    height: 280px;
+    margin-top: 4%;
+    margin-left: 38%;
+    border-radius: 3px;
+    background-color: white;
+  }
+.topic h1 {
+    font-size: 50px;
+    color: aliceblue;
+     font-family: 'Diphylleia', serif;
+}
+
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+    
+}
+h4 {
+    text-align: center;
+
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+
+
+}
+
+form label {
+    display: flex;
+    margin-top: 25px;
+    font-size: 18px;
+
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="submit"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #344a72;
+    color: white;
+    font-size: 15px;
+}
+
+p {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
+    color: white;
+
+}
+.para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+
+}
+.para-2 a {
+    color: rgb(161, 161, 222);
+}

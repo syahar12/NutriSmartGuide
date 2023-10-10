@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+   version="6.0">
+    <servlet>
+        <servlet-name>IngredientServlet</servlet-name>
+        <servlet-class>com.Controller.IngredientServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>InstructionServlet</servlet-name>
+        <servlet-class>com.Controller.InstructionServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CustomerRecipeServlet</servlet-name>
+        <servlet-class>com.Controller.CustomerRecipeServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>RecipeServlet</servlet-name>
+        <servlet-class>com.Controller.RecipeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RecipeDetailsServlet</servlet-name>
+        <servlet-class>com.Controller.RecipeDetailsServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdminServlet</servlet-name>
+        <servlet-class>com.Controller.AdminServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>IngredientServlet</servlet-name>
+        <url-pattern>/new</url-pattern>
+        <url-pattern>/edit</url-pattern>
+        <url-pattern>/insert</url-pattern>
+        <url-pattern>/update</url-pattern>
+        <url-pattern>/delete</url-pattern>
+         <url-pattern>/list</url-pattern>
+    </servlet-mapping>
+    
+   <servlet-mapping>
+        <servlet-name>InstructionServlet</servlet-name>
+        <url-pattern>/newInstruction</url-pattern>
+        <url-pattern>/editInstruction</url-pattern>
+        <url-pattern>/insertInstruction</url-pattern>
+        <url-pattern>/updateInstruction</url-pattern>
+        <url-pattern>/deleteInstruction</url-pattern>
+        <url-pattern>/listInstructionRetrieve</url-pattern>
+        <url-pattern>/showInstruction</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>CustomerRecipeServlet</servlet-name>
+        <url-pattern>/insertCustomerRecipe</url-pattern>
+        <url-pattern>/showCustomerRecipe</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>RecipeServlet</servlet-name>
+        <url-pattern>/newrecipe</url-pattern>
+        <url-pattern>/insertrecipe</url-pattern>
+        <url-pattern>/deleterecipe</url-pattern>
+        <url-pattern>/editrecipe</url-pattern>
+        <url-pattern>/updaterecipe</url-pattern>
+        <url-pattern>/listrecipe</url-pattern>
+        <url-pattern>/recipebest</url-pattern>
+        <url-pattern>/userbest</url-pattern>
+        <url-pattern>/recipetype</url-pattern>
+    </servlet-mapping>
+    
+     <servlet-mapping>
+        <servlet-name>RecipeDetailsServlet</servlet-name>
+        <url-pattern>/newdetails</url-pattern>
+        <url-pattern>/insertdetails</url-pattern>
+        <url-pattern>/deletedetails</url-pattern>
+        <url-pattern>/editdetails</url-pattern>
+        <url-pattern>/updatedetails</url-pattern>
+        <url-pattern>/viewdetails</url-pattern>
+        <url-pattern>/newnulldetails</url-pattern>
+        <url-pattern>/showDetailOnceRecipe</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>AdminServlet</servlet-name>
+        <url-pattern>/signupAdmin</url-pattern>
+        <url-pattern>/editFormAdmin</url-pattern>
+        <url-pattern>/loginAdmin</url-pattern>
+        <url-pattern>/editAdmin</url-pattern>
+        <url-pattern>/updateAdmin</url-pattern>
+        <url-pattern>/profileAdmin</url-pattern>
+    </servlet-mapping>
+    
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
